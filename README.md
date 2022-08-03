@@ -19,4 +19,15 @@ cargo run --release --bin dodosuko [-- --is-new-line]
 
 ## いーち、にぃー、さぁぁぁぁん！！！？？？
 
-を実現するプログラムを作成しています.
+を実現するプログラムを作成しました.  
+
+実行コマンドは以下です.
+
+```bash
+cd ../scr
+cargo run --release --bin nabe_of_world [-- --limit-of-world N]
+```
+
+`--limit-of-world`の後ろに数字を指定することで、その数まで愚者を数えさせることができます.
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【問題】1から順に数値をインクリメントし続けて標準出力する。ただし3の倍数と3の付く値だけアホになるプログラムを作成せよ。(最大値、アホになる際の出力は任意とする。)</p>&mdash; ((🐑++)) (@Sheeeeepla) <a href="https://twitter.com/Sheeeeepla/status/1554415675212693504?ref_src=twsrc%5Etfw">August 2, 2022</a></blockquote>

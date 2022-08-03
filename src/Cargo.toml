@@ -3,4 +3,5 @@
 members = [
     "main",
     "dodosuko",
+    "nabe_of_world",
 ]
