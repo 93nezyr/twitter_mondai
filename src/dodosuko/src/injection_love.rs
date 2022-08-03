@@ -1,6 +1,17 @@
 use anyhow::Result;
 use rand::seq::SliceRandom;
 
+/// # About
+/// 
+/// 楽しんごがドドスコしたりしなかったりします.
+/// 
+/// 楽しんごがドドスコスコスコ×3に成功すると、愛が注入されます.
+/// 
+/// DIならぬLIです(激寒).
+/// 
+/// ## Args
+/// 
+/// - `is_new_line` - 楽しんごを一行ごとにドドスコさせるか、一度に全ドドスコさせるかのフラグです. trueなら一行ごとにドドスコします.
 pub fn tano_singo(is_new_line: bool) -> Result<()> {
     let mut rng = rand::thread_rng();
     let dodosuko = ["ドド", "スコ"];
