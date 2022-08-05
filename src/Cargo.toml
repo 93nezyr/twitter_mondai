@@ -4,4 +4,9 @@ members = [
     "main",
     "dodosuko",
     "nabe_of_world",
+    "monty_hall",
+
 ]
+
+[cargo-new]
+vcs = "none"

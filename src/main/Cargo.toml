@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 dodosuko = { path = "../dodosuko" }
 nabe_of_world = { path = "../nabe_of_world" }
+monty_hall = { path = "../monty_hall" }
 clap = { version = "3.2.16", features = ["derive", "env"] }
