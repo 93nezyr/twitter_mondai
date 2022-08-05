@@ -10,3 +10,5 @@ Cargo.lock
 **/*.rs.bk
 /src/target
 /src/.devcontainer
+/src_rust/target
+/src_rust/.devcontainer

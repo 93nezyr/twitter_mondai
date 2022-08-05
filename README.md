@@ -12,7 +12,7 @@ twitterで見かけたプログラミング問題たちの私なりの回答た�
 `--is-new-line`フラグを指定することで、一行ごとにドドスコしてくれます.
 
 ```bash
-cd ../src
+cd ../src_rust
 cargo run --release --bin dodosuko [-- --is-new-line]
 ```
 
@@ -25,7 +25,7 @@ cargo run --release --bin dodosuko [-- --is-new-line]
 実行コマンドは以下です.
 
 ```bash
-cd ../src
+cd ../src_rust
 cargo run --release --bin nabe_of_world [-- --limit-of-world N]
 ```
 
@@ -44,7 +44,7 @@ cargo run --release --bin nabe_of_world [-- --limit-of-world N]
 実行コマンドは以下です.
 
 ```bash
-cd ../src
+cd ../src_rust
 cargo run --release --bin monty_hall_meme
 ```
 
