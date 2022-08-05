@@ -12,3 +12,4 @@ Cargo.lock
 /src/.devcontainer
 /src_rust/target
 /src_rust/.devcontainer
+/src_py/dodosuko/__pycache__
