@@ -18,6 +18,15 @@ cargo run --release --bin dodosuko [-- --is-new-line]
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【問題】配列{&quot;ドド&quot;,&quot;スコ&quot;}からランダムに要素を標準出力し続け、『その並びが「ドドスコスコスコ」を3回繰り返したもの』に一致したときに「ラブ注入♡」と標準出力して終了するプログラムを作成せよ(配点:5点)</p>&mdash; ((🐑++)) (@Sheeeeepla) <a href="https://twitter.com/Sheeeeepla/status/1554028833942441984?ref_src=twsrc%5Etfw">August 1, 2022</a></blockquote>
 
+### 追記
+
+Python版も実装しました.
+
+```bash
+cd ../src_py
+python dodosuko.py
+```
+
 ## いーち、にぃー、さぁぁぁぁん！！！？？？
 
 を実現するプログラムを作成しました.  
